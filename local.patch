@@ -1,0 +1,12 @@
+--- hashdb.py
++++ hashdb.py
+
+@@ -228,7 +228,7 @@
+ # Rest of the imports
+ import re
+ import functools
+-import requests
++from hashdb_hook import hashdb_hook as requests
+ from typing import Union
+ 
+ # These imports are specific to the Worker implementation
