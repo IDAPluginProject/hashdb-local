@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+
+"""
+Copyright (c) 2026 G DATA Advanced Analytics GmbH
+
+This file is licensed under the BSD 3-Clause License.
+See the LICENSE-BSD3 file in the project root for full license information.
+"""
+
 import pefile
 import sqlite3
 import os

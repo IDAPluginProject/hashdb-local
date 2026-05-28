@@ -78,7 +78,15 @@ Instead of resolving API hashes individually (inline in code) some malware devel
 Simply select the import hash block, right-click and choose `HashDB Scan IAT`. HashDB will attempt to resolve each individual integer type (`DWORD/QWORD`) in the selected range.
 
 # [Standing on the shoulders of those that stand on the shoulders of giants](https://github.com/OALabs/hashdb?tab=readme-ov-file#standing-on-the-shoulders-of-giants)
-This project relies strongly on the work of [OALabs](https://www.openanalysis.net/) and their implementation of [HashDB](https://github.com/OALabs/hashdb). Therefor cudos to the folks over there for creating such an awsome tool that makes the analysis of samples using any sort of hashing so much more enjoyable.
+This project relies strongly on the work of [OALabs](https://www.openanalysis.net/) and their implementation of [HashDB](https://github.com/OALabs/hashdb). Therefore, kudos to the folks over there for creating such an awesome tool that makes the analysis of samples using any sort of hashing so much more enjoyable.
+
+# Credits
+
+The following people authored the database building/lookup logic, function database creation and some of the algorithms:
+* [Tatjana Ljucovic](https://github.com/ljucovic)
+* [Melissa Eckardt](https://github.com/meck-gd)
+* [Luca Ebach](https://github.com/lucebac)
+* [Hannes](https://github.com/laeberkaes)
 
 # Licensing
 This repository contains code and content that are covered under different licenses. Please note the assignment of licenses to specific areas:
